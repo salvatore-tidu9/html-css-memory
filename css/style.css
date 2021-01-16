@@ -10,14 +10,14 @@ body {
 }
 
 .container {
-  width: 70% max-width: 1000px;
+  width: 70%;
   margin: 0 auto;
 }
 
 header {
   font-size: 50px;
   color: white;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
   padding: 10px;
   text-align: center;
 }
@@ -35,7 +35,9 @@ main .card_item {
   border-radius: 10px;
   margin: 20px;
   position: relative;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  /* box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+  background-image: url(../img/pattern.png);
+  background-size: contain; */
 }
 
 .card_name {
@@ -49,6 +51,10 @@ main .card_item {
 img {
   width: 100%;
   padding: 20px;
+}
+
+.card_item:hover {
+  background-image: none;
 }
 
 #air-balloon_text {

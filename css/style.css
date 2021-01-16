@@ -53,9 +53,9 @@ img {
   padding: 20px;
 }
 
-.card_item:hover {
+/* .card_item:hover {
   background-image: none;
-}
+} */
 
 #air-balloon_text {
   color: orange;

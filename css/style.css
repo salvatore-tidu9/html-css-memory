@@ -35,9 +35,9 @@ main .card_item {
   border-radius: 10px;
   margin: 20px;
   position: relative;
-  /* box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
-  background-image: url(../img/pattern.png);
-  background-size: contain; */
+  box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+  /* background-image: url(../img/pattern.png); */
+
 }
 
 .card_name {
@@ -53,9 +53,20 @@ img {
   padding: 20px;
 }
 
-/* .card_item:hover {
+.card_cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 250px;
+  background-image: url(../img/pattern.png);
+  background-size: contain;
+  border-radius: 10px;
+}
+
+.card_cover:hover {
   background-image: none;
-} */
+}
 
 #air-balloon_text {
   color: orange;
